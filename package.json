@@ -1,0 +1,15 @@
+{
+  "name": "french-tv-stremio-addon",
+  "version": "1.0.0",
+  "description": "Auto-sync addon Stremio depuis FRENCH-TV APK",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.7.0",
+    "cors": "^2.8.5"
+  }
+}
